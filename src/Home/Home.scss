@@ -1,13 +1,29 @@
-.nav{
-  border: blue solid 2px;
+.home{
   display: flex;
-  justify-content: space-between;
-  height: 8em;
+  flex-direction: column;
+  align-items: center;
+  // border: blue solid 2px;
 }
 
-.menu-button{
-  border: none;
-  background: none;
-  font-size: 250%;
-  color: #3B3937
+.home-logo{
+  height: 60vh;
+  // max-width: 100vw
+}
+
+.home-buttons{
+  margin: 10vh;
+  // border: solid 2px blue;
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+}
+
+.home-button{
+  text-decoration: none;
+  color: #3B3937;
+  background: #BEAB96;
+  box-shadow: -0.6em 0.6em #3B3937;
+  padding: 0.7em 2em;
+  letter-spacing: 0.8em;
+  font-size: 80%
 }
