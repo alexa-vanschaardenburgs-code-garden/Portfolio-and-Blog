@@ -1,4 +1,4 @@
-import './Work.css';
+import '../Work/Work.scss';
 
 function Work() {
   return (
@@ -9,3 +9,4 @@ function Work() {
 }
 
 export default Work;
+
