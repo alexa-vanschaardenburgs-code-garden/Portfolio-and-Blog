@@ -1,4 +1,4 @@
-import './Contact.css';
+import '../Contact/Contact.scss';
 
 function Contact() {
   return (
