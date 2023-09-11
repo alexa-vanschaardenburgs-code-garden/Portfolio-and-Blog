@@ -3,8 +3,7 @@ import { NavLink } from 'react-router-dom'
 
 function Home() {
   return (
-    <div>
-      <p>Home</p>
+    <div className='home'>
       <img src={`${process.env.PUBLIC_URL}/logo_home.png`}></img>
       <div className="home-buttons">
         <NavLink to="/about">LEARN MORE ABOUT ME</NavLink>
