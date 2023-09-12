@@ -31,13 +31,15 @@
 .about-info{
   display: flex;
   justify-content: space-around;
+  align-items: center;
   margin: 2.4em 7em;
-  height: 46vh;
+  height: 18em;
 }
 
 .bio-and-buttons{
   width: 55%;
-  font-size: 1.2em
+  font-size: 1.2em;
+  margin-left: 3em;
 }
 
 .about-buttons{
