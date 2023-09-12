@@ -4,10 +4,12 @@ import { NavLink } from 'react-router-dom'
 function About() {
   return (
     <div className='about'>
-      <img className="flower-img" id="flower-1" src={`${process.env.PUBLIC_URL}/flower_1.png`} />
-      <h1>HI, I'M ALEXA VANSCHAARDENBURG</h1>
-      <h2>FRONT END WEB DEVELOPER</h2>
-      <img className="flower-img" id="flower-2" src={`${process.env.PUBLIC_URL}/flower_2.png`} />
+      <div className='header'>
+        <img className="flower-img" id="flower-1" src={`${process.env.PUBLIC_URL}/flower_1.png`} />
+        <h1>HI, I'M ALEXA VANSCHAARDENBURG</h1>
+        <h2>FRONT END WEB DEVELOPER</h2>
+        <img className="flower-img" id="flower-2" src={`${process.env.PUBLIC_URL}/flower_2.png`} />
+        </div>
       <div className="about-info">
         <img className="headshot" src={`${process.env.PUBLIC_URL}/headshot.jpeg`} />
         <div className="bio-and-buttons">
