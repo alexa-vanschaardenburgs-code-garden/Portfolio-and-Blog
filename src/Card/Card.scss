@@ -7,8 +7,8 @@
   width: 70%;
   padding: 1em;
   margin-top: 3em;
-  // border: solid blue 2px;
   align-items: center;
+  text-decoration: none;
 }
 
 .gif-container{
@@ -56,12 +56,11 @@
 }
 
 .view-more-button{
+  border: none;
   margin-top: 1em;
   font-size: 0.8em;
   background: none;
   color: #3B3937;
-  text-decoration: none;
   letter-spacing: 0.8em;
   display: flex;
-  cursor: pointer;
 }

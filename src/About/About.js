@@ -16,7 +16,7 @@ function About() {
           <p className='bio'>Hi, I'm Alexa, a front-end web developer driven by my passion for design and accessibility. My goal is to craft products that make a positive impact on our world. I firmly believe that innovation thrives in inclusive environments, where diverse voices are empowered to contribute. My work is rooted in community-driven problem-solving and collaborative efforts.</p>
           <div className='about-buttons'>
             <NavLink className='button about-button' to="/contact">CONTACT ME</NavLink>
-            <a className='button about-button' href="https://www.linkedin.com/in/alexa-r-vanschaardenburg/">RESUME</a>
+            <a className='button about-button' href={`${process.env.PUBLIC_URL}/A_VanSchaardenburg_Resume.pdf`}>RESUME</a>
           </div>
         </div>
       </div>
