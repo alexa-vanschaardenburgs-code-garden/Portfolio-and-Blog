@@ -4,7 +4,7 @@ import Card from '../Card/Card.js';
 
 function Work() {
   return (
-    <div>
+    <div className="work">
       <PageHeader page={"MY WORK"}/>
       {/*iterate over cards here*/}
     </div>
