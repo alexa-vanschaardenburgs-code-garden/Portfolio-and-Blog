@@ -33,7 +33,7 @@
     "context": "This project was compeleted during the second to last module during my time at Tring School of Software and Design. The goal of this project was to learn and implement a new technology. My team and I chose to build a backend server to host our quotes, and images, as well as save any user favorited posters. We completed this project over the course of 12 days, including our planning, research and excecution phases.",
     "techs": ["React", "Cypress", "CSS", "Express", "Knex", "PostgreSQL"],
     "summary": "Humor Me is a web application that encourages users to laugh and feel light through the generation of random quotes. The user has the option to generate quotes in either a wholesome or chaotic category to best fit their mood in the moment. Additional features include allowing the user to favorite quote posters and create their own.",
-    "gif": "public/humor-me-preview.gif",
+    "gif": "/humor-me-preview.gif",
     "imgs": ["/humor-me-img1.png", "/humor-me-img2.png", "/humor-me-img3.png", "/humor-me-img4.png"],
     "repo_link": "https://github.com/rachelsoae/humor-me-ui",
     "deployed_link": "https://humor-me-ui.vercel.app/"

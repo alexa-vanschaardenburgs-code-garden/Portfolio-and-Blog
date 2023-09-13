@@ -1,10 +1,12 @@
 import '../Card/Card.scss';
 
-function Card() {
+function Card({ project }) {
   return (
     <div>
       <p>Card</p>
-      <img className="flower-img" id="flower-3" src={`${process.env.PUBLIC_URL}/flower_3.png`} />
+      <div className="preview-img">
+      <img className="preview-img" src={`${process.env.PUBLIC_URL}${project.gif}`} />
+      </div>
     </div>
   );
 }
