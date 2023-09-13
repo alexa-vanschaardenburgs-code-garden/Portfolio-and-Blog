@@ -1,0 +1,27 @@
+.details{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.detail-button{
+  border: none;
+}
+
+.detail-section-header{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1em;
+  color: #3B3937;
+  background: none;
+  border-bottom: 1px solid #3B3937;
+  text-align: center;
+  letter-spacing: 0.8em;
+  padding-bottom: 0.3em;
+  width: 65%;
+}
+
+.detail-section-header h2 {
+  padding: 0 1em
+}
