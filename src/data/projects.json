@@ -1,7 +1,7 @@
 [
   {
-    "name": "ParkSeeker",
-    "id": 5,
+    "name": "PARKSEEKER",
+    "id": "parkseeker",
     "breif_summary": "Easily find national parks, monuments, and lands to do the activities you love most",
     "highlights": ["Consumed API to display and sort data", "Fully responsive design", "Built in React, tested in Cypress"],
     "context": "This project was the final project during the third module (of four) during my time at Turing School of Software and Design. The project was used to showcase my skills in React, React Router, and e2e testing in Cypress which were learned over the course of the module. I also used this project to soliddify my skills in git, GitHub Projects, Agile workflow, CSS, and fetch APIs. This project was completed independently.",
@@ -13,8 +13,8 @@
     "deployed_link": "inding-national-parks.vercel.app"
   },
   {
-    "name": "Backyarder",
-    "id": 4,
+    "name": "BACKYARDER",
+    "id": "backyarder",
     "breif_summary": "Garden planning made easy",
     "highlights": ["Collaborated on fullstack team", "Utilized npm drag and drop package", "Created application from intial ideas to completion"],
     "context": "This project was compeleted during the last module during my time at Tring School of Software and Design as the capstone of all of the technologies and workflows I had learned over the course of the program. The applicaton was invented and built from the ground up, working on a full stack team",
@@ -26,8 +26,8 @@
     "deployed_link": "https://backyarder.vercel.app/"
   },
   {
-    "name": "humor me",
-    "id": 3,
+    "name": "HUMOR ME",
+    "id": "humor-me",
     "breif_summary": "Humorous quote generator",
     "highlights": ["Self taught and built back end", "Implemented responsive design", "Built in React, tested in Cypress"],
     "context": "This project was compeleted during the second to last module during my time at Tring School of Software and Design. The goal of this project was to learn and implement a new technology. My team and I chose to build a backend server to host our quotes, and images, as well as save any user favorited posters. We completed this project over the course of 12 days, including our planning, research and excecution phases.",
@@ -39,8 +39,8 @@
     "deployed_link": "https://humor-me-ui.vercel.app/"
   },
   {
-    "name": "Rancid Tomatillos",
-    "id": 2,
+    "name": "RANCID TOMATILLOS",
+    "id": "reancid-tomatillos",
     "breif_summary": "Movie reviews application",
     "highlights": ["Fully responsive design", "Built in React & CSS", "Tested in Cypress"],
     "context": "This projetc was completed during the third Module of my time at Turing School of Software and Design. We had jsut learned React and Cypress and were still getting familiar with fetch APIs. This project served as an oppurtunity to explore these technologies further",
