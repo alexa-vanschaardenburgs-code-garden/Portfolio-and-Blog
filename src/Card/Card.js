@@ -13,7 +13,7 @@ function Card({ project }) {
   }
 
   return (
-    <NavLink className="card-view" >
+    <NavLink to={`/work/${project.id}`} className="card-view" >
       <div className="gif-container">
       <img className="project-gif" src={`${process.env.PUBLIC_URL}${project.gif}`} />
       </div>
