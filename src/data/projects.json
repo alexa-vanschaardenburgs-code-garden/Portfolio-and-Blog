@@ -1,0 +1,54 @@
+[
+  {
+    "name": "PARKSEEKER",
+    "id": "parkseeker",
+    "breif_summary": "Easily find national parks, monuments, and lands to do the activities you love most",
+    "highlights": ["Consumed API to display and sort data", "Fully responsive design", "Built in React, tested in Cypress"],
+    "context": "This project was the final project during the third module (of four) during my time at Turing School of Software and Design. The project was used to showcase my skills in React, React Router, and e2e testing in Cypress which were learned over the course of the module. I also used this project to soliddify my skills in git, GitHub Projects, Agile workflow, CSS, and fetch APIs. This project was completed independently.",
+    "techs": ["Cypress", "React", "React Router", "CSS", "Webpack", "GitHub", "Canva Wireframing", "Postman"],
+    "summary": "The goal of this project was to create an application using an external api in order to solve a problem for a niche group of users. I love being in the outdoors, and some of my favorites trips have been those to National Parks and Museums. I created this application to allow users to easily sort parks by the activities they love while providing basic park information to kick start their trip planning. The UI is intentionally minimalistic and included limited details to encourage users to peruse their adventures without getting overwhelmed. There is a link to each parks home page available to the user if they want easy access to more information.",
+    "gif": "/parkseeker_preview.gif",
+    "imgs": ["/parkseeker_img1.png", "/parkseeker_img2.png", "/parkseeker_img3.png"],
+    "repo_link": "https://github.com/AlexaVanSchaardenburg/finding-national-parks",
+    "deployed_link": "inding-national-parks.vercel.app"
+  },
+  {
+    "name": "BACKYARDER",
+    "id": "backyarder",
+    "breif_summary": "Garden planning made easy",
+    "highlights": ["Collaborated on fullstack team", "Utilized npm drag and drop package", "Created application from intial ideas to completion"],
+    "context": "This project was compeleted during the last module during my time at Tring School of Software and Design as the capstone of all of the technologies and workflows I had learned over the course of the program. The applicaton was invented and built from the ground up, working on a full stack team",
+    "techs": ["TypeScript", "Vercel", "React", "Cypress", "CircleCI"],
+    "summary": "BackYarder is an innovative app designed to revolutionize the way gardeners brainstorm and optimize their gardens. This app empowers gardeners of all skill levels to create their dream gardens with ease. Key features include a large database of plants with detailed information, including care instructions, and a drag-and-drop tool to experiment with different arrangements. BackYarder enables the user to create a beautiful garden tailored to their unique vision. Whether you're a seasoned gardener or just starting your gardening journey, this app will be the perfect companion for you! Please note this application is still under developement and may have new features from what is listed here, this is a 'sandbox' project and we are still playing with it!",
+    "gif": "/backyarder_preview.gif",
+    "imgs": ["/backyarder_img1.png"],
+    "repo_link": "https://github.com/Backyarder/backyarder-ui",
+    "deployed_link": "https://backyarder.vercel.app/"
+  },
+  {
+    "name": "HUMOR ME",
+    "id": "humor-me",
+    "breif_summary": "Humorous quote generator",
+    "highlights": ["Self taught and built back end", "Implemented responsive design", "Built in React, tested in Cypress"],
+    "context": "This project was compeleted during the second to last module during my time at Tring School of Software and Design. The goal of this project was to learn and implement a new technology. My team and I chose to build a backend server to host our quotes, and images, as well as save any user favorited posters. We completed this project over the course of 12 days, including our planning, research and excecution phases.",
+    "techs": ["React", "Cypress", "CSS", "Express", "Knex", "PostgreSQL"],
+    "summary": "Humor Me is a web application that encourages users to laugh and feel light through the generation of random quotes. The user has the option to generate quotes in either a wholesome or chaotic category to best fit their mood in the moment. Additional features include allowing the user to favorite quote posters and create their own.",
+    "gif": "/humor-me-preview.gif",
+    "imgs": ["/humor-me-img1.png", "/humor-me-img2.png", "/humor-me-img3.png", "/humor-me-img4.png"],
+    "repo_link": "https://github.com/rachelsoae/humor-me-ui",
+    "deployed_link": "https://humor-me-ui.vercel.app/"
+  },
+  {
+    "name": "RANCID TOMATILLOS",
+    "id": "reancid-tomatillos",
+    "breif_summary": "Movie reviews application",
+    "highlights": ["Fully responsive design", "Built in React & CSS", "Tested in Cypress"],
+    "context": "This projetc was completed during the third Module of my time at Turing School of Software and Design. We had jsut learned React and Cypress and were still getting familiar with fetch APIs. This project served as an oppurtunity to explore these technologies further",
+    "techs": [],
+    "summary": "Rancid Tomatillos is a web application where a user can view a variety of movies and their ratings. Users also have the option to click on a movie to explore more details about that movie. Our goal for this projet was to get more familiar with using React, React Router and Cypress e2e testing. We also focused on creating a web application that was responsive to different screen sizes.",
+    "gif": "/rancid-tomatillow-preview.gif",
+    "imgs": [],
+    "repo_link": "https://github.com/AlexaVanSchaardenburg/rancidtomatillos",
+    "deployed_link": "https://rancidtomatillos-seven.vercel.app/"
+  }
+]

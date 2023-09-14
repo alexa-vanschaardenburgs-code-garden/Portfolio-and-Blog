@@ -1,0 +1,18 @@
+.nav{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 10vh;
+  margin: 1em;
+}
+
+.nav-logo{
+  height: 100%
+}
+
+.menu-button{
+  border: none;
+  background: none;
+  font-size: 200%;
+  color: #3B3937
+}

@@ -1,0 +1,66 @@
+.card-view{
+  background: #BEAB96;
+  box-shadow: -0.6em 0.6em #3B3937;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 70%;
+  padding: 1em;
+  margin-top: 3em;
+  align-items: center;
+  text-decoration: none;
+}
+
+.gif-container{
+  width: 60%;
+  background: none;
+}
+
+.project-gif{
+  width: 100%;
+}
+
+.project-preview{
+  background: none;
+  width: 35%;
+}
+
+.project-preview h2{
+  font-size: 1.2em;
+  color: #3B3937;
+  background: none;
+  border-bottom: 1px solid #3B3937;
+  text-align: center;
+  letter-spacing: 0.8em;
+  padding-bottom: 0.3em;
+}
+
+.project-preview p{
+  color: #3B3937;
+  background: none;
+  margin: 0;
+}
+
+.bullet{
+  color: #3B3937;
+  background: none;
+  display: flex;
+  align-items: center;
+  font-size: 0.9em;
+}
+
+.point-flower{
+  background: none;
+  height: 2em;
+  margin-right: 0.5em;
+}
+
+.view-more-button{
+  border: none;
+  margin-top: 1em;
+  font-size: 0.8em;
+  background: none;
+  color: #3B3937;
+  letter-spacing: 0.8em;
+  display: flex;
+}

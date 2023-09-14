@@ -1,0 +1,16 @@
+.home{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.home-logo{
+  height: 58vh;
+}
+
+.home-buttons{
+  margin: 9vh;
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+}

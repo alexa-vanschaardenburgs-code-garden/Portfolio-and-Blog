@@ -1,0 +1,69 @@
+.header{
+  margin-top: 3em;
+  position: relative;
+}
+
+.about h1 {
+  letter-spacing: 0.8em;
+  color: #3B3937;
+  background: #BEAB96;
+  text-align: center;
+  font-size: 1.3em;
+  padding: 0.6em;
+  margin: 0;
+}
+
+.about h2 {
+  letter-spacing: 0.8em;
+  color: #f4f4f4;
+  background: #3B3937;
+  text-align: center;
+  font-size: 1em;
+  padding: 0.6em;
+  margin: 0
+}
+
+.headshot{
+  height: 100%;
+  box-shadow: -0.6em 0.6em #3B3937;
+}
+
+.about-info{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin: 2.4em 7em;
+  height: 18em;
+}
+
+.bio-and-buttons{
+  width: 55%;
+  font-size: 1.2em;
+  margin-left: 3em;
+}
+
+.about-buttons{
+  display: flex;
+  justify-content: space-around;
+  margin-top: 3em;
+}
+
+.about-button{
+  font-size: 0.5em;
+}
+
+.flower-img{
+  position: absolute;
+  background: none;
+  height: 180%;
+}
+
+#flower-1{
+  bottom: -38%;
+  left: 1.5%;
+}
+
+#flower-2{
+  bottom: -36%;
+  left: 85.5%;
+}
