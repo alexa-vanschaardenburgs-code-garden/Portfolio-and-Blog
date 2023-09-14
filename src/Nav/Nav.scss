@@ -16,3 +16,32 @@
   font-size: 200%;
   color: #3B3937
 }
+
+.dropdown{
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(244, 244, 244, 0.55); /* Transparent background */
+  backdrop-filter: blur(10px);
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+}
+
+.nav-location{
+  background: none;
+  font-size: 1.5em;
+  padding: 1em;
+  letter-spacing: 0.8em;
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+  color: #3B3937;
+}
+
+.toggle-off{
+  margin: 0.5em;
+}
