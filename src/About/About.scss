@@ -1,3 +1,7 @@
+.about{
+  width: 98vw
+}
+
 .header{
   margin-top: 3em;
   position: relative;
@@ -20,12 +24,13 @@
   text-align: center;
   font-size: 1em;
   padding: 0.6em;
-  margin: 0
+  margin: 0;
 }
 
 .headshot{
   height: 100%;
   box-shadow: -0.6em 0.6em #3B3937;
+  margin-top: 1em;
 }
 
 .about-info{
@@ -50,6 +55,7 @@
 
 .about-button{
   font-size: 0.5em;
+  margin: 1em;
 }
 
 .flower-img{
@@ -66,4 +72,67 @@
 #flower-2{
   bottom: -36%;
   left: 85.5%;
+}
+
+
+@media screen and (max-width: 1200px){
+  #flower-1{
+    display: none
+  }
+
+  #flower-2{
+    bottom: -36%;
+    left: 83%;
+  }
+
+  .about h1{
+    font-size: 1.1em;
+    text-align: left;
+  }
+
+  .about h2{
+    font-size: 0.9em;
+    text-align: left;
+  }
+
+  .headshot{
+    height: 100%;
+    margin-bottom: 2em;
+  }
+
+  .about-info{
+    flex-direction: column;
+    margin: 0;
+    margin: 16em 0;
+    align-items: center;
+  }
+
+  .bio-and-buttons{
+    width: 80%;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  .about-buttons{
+    flex-direction: column;
+  }
+}
+
+@media screen and (max-width: 870px){
+  #flower-2{
+    bottom: -36%;
+    left: 70%;
+  }
+
+  .about h1{
+    font-size: 0.7em;
+    text-align: left;
+  }
+
+  .about h2{
+    font-size: 0.5em;
+    text-align: left;
+  }
 }

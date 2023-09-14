@@ -6,7 +6,7 @@
   justify-content: space-between;
   width: 70%;
   padding: 1em;
-  margin-top: 3em;
+  margin: 2em;
   align-items: center;
   text-decoration: none;
 }
@@ -63,4 +63,33 @@
   color: #3B3937;
   letter-spacing: 0.8em;
   display: flex;
+}
+
+@media screen and (max-width: 1200px){
+  .card-view{
+    width: 90%;
+  }
+
+  .project-preview h2{
+    font-size: 1em;
+  }
+
+  .project-preview p{
+    font-size: 0.6em
+  }
+}
+
+@media screen and (max-width: 700px){
+  .card-view{
+    flex-direction: column;
+    width: 70%
+  }
+
+  .project-preview{
+    width: 80%
+  }
+
+  .gif-container{
+    width: 80%
+  }
 }
