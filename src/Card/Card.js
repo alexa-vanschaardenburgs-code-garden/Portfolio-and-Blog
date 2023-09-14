@@ -13,7 +13,7 @@ function Card({ project }) {
   }
 
   return (
-    <NavLink className="card-view" to={'/work/'+project.id}>
+    <NavLink className="card-view" >
       <div className="gif-container">
       <img className="project-gif" src={`${process.env.PUBLIC_URL}${project.gif}`} />
       </div>
@@ -21,7 +21,7 @@ function Card({ project }) {
         <h2>{project.name}</h2>
         <p>{project["breif_summary"]}</p>
         {project.highlights.map(highlight => createBullets(highlight))}
-        <button className="view-more-button" >MORE DETAILS...</button>
+        <p className="view-more-button" >MORE DETAILS...</p>
       </div>
     </NavLink>
   );

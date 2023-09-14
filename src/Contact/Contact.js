@@ -11,8 +11,8 @@ function Contact() {
         <img className="point-flower" src={`${process.env.PUBLIC_URL}/point-flower.png`} />
       </div>
       <div className='link-container'>
-        <a className="button" href="">Linkedin</a>
-        <a className="button" href="">GitHub</a>
+        <a className="button" href="https://www.linkedin.com/in/alexa-r-vanschaardenburg/">Linkedin</a>
+        <a className="button" href="https://github.com/AlexaVanSchaardenburg">GitHub</a>
       </div>
     </div>
   );
