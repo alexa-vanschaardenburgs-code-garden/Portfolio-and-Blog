@@ -3,6 +3,9 @@
   background: #BEAB96;
   border-bottom: #3B3937 solid 0.8em;
   width: 55%;
+  display: flex;
+  align-items: center;
+  // margin: 0 auto; 
 }
 
 .page-header h1{
@@ -11,12 +14,33 @@
   font-size: 1.7em;
   padding: 0.6em;
   margin: 0;
+  max-width: 70%;
 }
 
 #flower-3{
   position: absolute;
   background: none;
-  height: 330%;
-  bottom: -120%;
+  height: 17vw;
   left: 70%;
+}
+
+@media screen and (max-width: 1000px){
+  .page-header {
+    width: 100%; 
+  }
+  
+  #flower-3 {
+    height: 30vw;
+  }
+}
+
+@media screen and (max-width: 600px){
+  
+  // #flower-3 {
+  //   display: none
+  // }
+
+  .page-header h1{
+    font-size: 1em
+  }
 }
