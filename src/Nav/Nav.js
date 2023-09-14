@@ -7,7 +7,6 @@ function Nav() {
   const [navExpanded, setNavExpanded] = useState(false)
 
   const displayNavButtons = () => {
-    console.log("click heard")
     return (
       <div className='dropdown'>
         <button className="menu-button toggle-off" onClick={() => {setNavExpanded(!navExpanded)}}><span className="material-symbols-rounded menu-button">menu</span></button>
