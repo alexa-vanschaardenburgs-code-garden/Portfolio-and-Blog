@@ -9,6 +9,7 @@
   margin-top: 3em;
   font-size: 1.5em;
   align-items: center;
+  text-align: center;
 }
 
 .link-container{
@@ -20,4 +21,10 @@
   text-decoration: none;
   color: #3B3937;
   margin: 3em
+}
+
+@media screen and (max-width: 600px){
+  .link-container{
+    flex-direction: column;
+  }
 }

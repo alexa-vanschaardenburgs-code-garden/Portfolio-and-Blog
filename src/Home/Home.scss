@@ -14,3 +14,20 @@
   display: flex;
   justify-content: space-around;
 }
+
+@media screen and (max-width: 1000px){
+  .home-logo{
+    height: 50vw
+  }
+}
+
+@media screen and (max-width: 800px){
+  .home-buttons{
+    flex-direction: column;
+  }
+
+  .home-button{
+    margin: 1.4em;
+    font-size: 0.6em;
+  }
+}

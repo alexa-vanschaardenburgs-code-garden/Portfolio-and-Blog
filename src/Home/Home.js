@@ -6,8 +6,8 @@ function Home() {
     <div className='home'>
       <img className="home-logo" src={`${process.env.PUBLIC_URL}/logo_home.png`}/>
       <div className="home-buttons">
-        <NavLink className="button" to="/about-me">LEARN MORE ABOUT ME</NavLink>
-        <NavLink className="button" to="/work">SEE MORE OF MY WORK</NavLink>
+        <NavLink className="button home-button" to="/about-me">LEARN MORE ABOUT ME</NavLink>
+        <NavLink className="button home-button" to="/work">SEE MORE OF MY WORK</NavLink>
       </div>
     </div>
   );

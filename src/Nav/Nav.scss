@@ -16,7 +16,6 @@
   font-size: 200%;
   color: #3B3937;
   cursor: pointer;
-  // position: fixed;
 }
 
 .dropdown{
@@ -31,6 +30,7 @@
   display: flex;
   flex-direction: column;
   align-items: flex-end;
+  text-align: right;
 }
 
 .nav-location{
@@ -46,4 +46,15 @@
 
 .toggle-off{
   margin: 0.3em 0.74em;
+}
+
+@media screen and (max-width: 400px){
+  .dropdown{
+    font-size: 0.7em;
+  }
+
+  .nav{
+    height: 5vh;
+    font-size: 0.6em;
+  }
 }
