@@ -4,7 +4,7 @@ import { useState } from 'react'
 
 function Nav() {
 
-  const [navExpanded, setNavExpanded] = useState(true)
+  const [navExpanded, setNavExpanded] = useState(false)
 
   const displayNavButtons = () => {
     console.log("click heard")
