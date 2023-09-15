@@ -10,7 +10,7 @@
     "gif": "/parkseeker_preview.gif",
     "imgs": ["/parkseeker_img1.png", "/parkseeker_img2.png", "/parkseeker_img3.png"],
     "repo_link": "https://github.com/AlexaVanSchaardenburg/finding-national-parks",
-    "deployed_link": "inding-national-parks.vercel.app"
+    "deployed_link": "https://finding-national-parks.vercel.app/"
   },
   {
     "name": "BACKYARDER",

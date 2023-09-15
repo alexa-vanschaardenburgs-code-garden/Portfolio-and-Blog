@@ -24,8 +24,8 @@ function Details() {
       <div className="details">
         <img className="project-gif" id="details-gif" src={`${process.env.PUBLIC_URL}${project.gif}`} />
         <div className="links-container">
-          <button className="button detail-button" to="/about-me">VIST REPO</button>
-          <button className="button detail-button" to="/work">VISIT SITE</button>
+          <a className="button detail-button" href={project["repo_link"]}>VIST REPO</a>
+          <a className="button detail-button" href={project["deployed_link"]}>VISIT SITE</a>
         </div>
         {displaySectionHeader('CONTEXT')}
         <p>{project.context}</p>
