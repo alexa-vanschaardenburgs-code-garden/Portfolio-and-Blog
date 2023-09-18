@@ -43,7 +43,7 @@
     "id": "reancid-tomatillos",
     "breif_summary": "Movie reviews application",
     "highlights": ["Fully responsive design", "Built in React & CSS", "Tested in Cypress"],
-    "context": "This projetc was completed during the third Module of my time at Turing School of Software and Design. We had jsut learned React and Cypress and were still getting familiar with fetch APIs. This project served as an oppurtunity to explore these technologies further",
+    "context": "This projetct was completed during the third Module of my time at Turing School of Software and Design. We had jsut learned React and Cypress and were still getting familiar with fetch APIs. This project served as an oppurtunity to explore these technologies further",
     "techs": [],
     "summary": "Rancid Tomatillos is a web application where a user can view a variety of movies and their ratings. Users also have the option to click on a movie to explore more details about that movie. Our goal for this projet was to get more familiar with using React, React Router and Cypress e2e testing. We also focused on creating a web application that was responsive to different screen sizes.",
     "gif": "/rancid-tomatillow-preview.gif",
