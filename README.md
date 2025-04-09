@@ -7,15 +7,11 @@ Designed with creativity and scalability in mind, my portfolio is a place where 
 Take a look: [alexa-vanschaardenburg.com](https://alexa-vanschaardenburg.com)  
 I hope you enjoy your visit ✨
 
----
-
 ## 🛠 Tech Stack
 
 Built with:
 - React
 - CSS
 - JavaScript
-
----
 
 If you have any feedback or just want to say hi, feel free to reach out — I always love connecting with other makers and thinkers 🌱
